@@ -1,12 +1,11 @@
 {
-  "name": "kickstart",
+  "name": "coinfund",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p $PORT"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
